@@ -18,7 +18,7 @@ function loadEventListeners(){
 function addTask(e){
     if(taskInput.value===''){
         alert('Add a task')
-    } else{
+    } 
 
     //Create li element
     const li =document.createElement('li')
@@ -42,5 +42,4 @@ taskList.appendChild(li)
 taskInput.value==='';
 
     e.preventDefault()
-}
 }
